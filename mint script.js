@@ -9,37 +9,10 @@ const web3 = new Web3(new Web3.providers.HttpProvider("https://rinkeby.infura.io
 // const web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161")); // mainnet
 
 // personal info
-// const private_key = ["a7cb1c393b61bc074007677ae2c7141778be14f0eaf41c21e256d748a4ca0cb5"];
-// const wallet_address = ["0xd94D162852346cBBe407D03D4a3AbF755D39DD41"];
+const private_key = [];
+const wallet_address = [];
 
-// const wallet_key_dict = {
-//     "0xd94D162852346cBBe407D03D4a3AbF755D39DD41": "a7cb1c393b61bc074007677ae2c7141778be14f0eaf41c21e256d748a4ca0cb5",
-// 	    // "0x0c6dD9edd0D92c4Cfeed734eEedD6Bf8b7fAf489" : "c121e2115bdc252500fc71081145385360a15bf7435385f221dfced39fff2153",
-// }
-
-
-// personal info
-const private_key = ["c121e2115bdc252500fc71081145385360a15bf7435385f221dfced39fff2153",
-                        "4fbfef1e719ef5cb9b8971caa87be8d546eb0ef84fbb423732ad57608b448c3a",
-                    "a7cb1c393b61bc074007677ae2c7141778be14f0eaf41c21e256d748a4ca0cb5",
-                "7500ad3ad01c70d18ac7186773e704f4a953621199ac485d41de54b4c856871c",
-            "2186040f297ef51cbff541397e9dc1f342c24e4651351817cc17641fb8232454",
-        "32a202c97b4e2c59ee0713a937e00f3e88d9dd6f9c370d0e176a8da1852ee807"];
-const wallet_address = ["0x0c6dD9edd0D92c4Cfeed734eEedD6Bf8b7fAf489",
-                    "0xdc87d947cb2AFadEc669d6566EBa6cCED4cfFdfF",
-                "0xd94D162852346cBBe407D03D4a3AbF755D39DD41",
-            "0xD406193d51585b2B825c2A7007b71406605248d4",
-            "0x6f318f590EB9e55d1130282A0b60ea2B7Be8922a",
-            "0x65c3E1c95a72f1c010B6d9Bd2272C2065F91d531"];
-
-const wallet_key_dict = {
-    "0x0c6dD9edd0D92c4Cfeed734eEedD6Bf8b7fAf489" : "c121e2115bdc252500fc71081145385360a15bf7435385f221dfced39fff2153",
-    "0xdc87d947cb2AFadEc669d6566EBa6cCED4cfFdfF" : "4fbfef1e719ef5cb9b8971caa87be8d546eb0ef84fbb423732ad57608b448c3a",
-    "0xd94D162852346cBBe407D03D4a3AbF755D39DD41": "a7cb1c393b61bc074007677ae2c7141778be14f0eaf41c21e256d748a4ca0cb5",
-    "0xD406193d51585b2B825c2A7007b71406605248d4": "7500ad3ad01c70d18ac7186773e704f4a953621199ac485d41de54b4c856871c",
-    "0x6f318f590EB9e55d1130282A0b60ea2B7Be8922a": "2186040f297ef51cbff541397e9dc1f342c24e4651351817cc17641fb8232454",
-    "0x65c3E1c95a72f1c010B6d9Bd2272C2065F91d531": "32a202c97b4e2c59ee0713a937e00f3e88d9dd6f9c370d0e176a8da1852ee807",
-}
+const wallet_key_dict = {}
 
 // contract info
 const abi = [

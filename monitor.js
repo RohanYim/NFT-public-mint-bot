@@ -52,12 +52,10 @@ setInterval(() => {
 // // const web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161")); // mainnet
 
 // // personal info
-// const private_key = ["c121e2115bdc252500fc71081145385360a15bf7435385f221dfced39fff2153"];
-// const wallet_address = ["0x0c6dD9edd0D92c4Cfeed734eEedD6Bf8b7fAf489"];
+// const private_key = [""];
+// const wallet_address = [""];
 
-// const wallet_key_dict = {
-//     "0x0c6dD9edd0D92c4Cfeed734eEedD6Bf8b7fAf489" : "c121e2115bdc252500fc71081145385360a15bf7435385f221dfced39fff2153"
-// }
+// const wallet_key_dict = {}
 
 // const contractAddress = "0x4d24cae3ab062293a3ffa3a78b72d82561e84419";
 
